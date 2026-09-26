@@ -4,3 +4,5 @@
 .related-entry{margin-bottom:9px;font-size:.86rem;line-height:1.7}.related .related-entry>a{display:inline;margin:0;font-size:inherit}.related .research-recognition{display:inline;margin-left:.5em;padding:0;border:0;background:none;color:#b42318;font-size:inherit;font-weight:400;line-height:inherit}
 
 .research-detail .prose>p:not(.funding){text-align:justify;hyphens:auto}
+
+.teaching-page p:not(.eyebrow),.teaching-page .detail-list li{text-align:justify;hyphens:auto}
