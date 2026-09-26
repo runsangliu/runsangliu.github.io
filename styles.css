@@ -6,3 +6,13 @@
 .research-detail .prose>p:not(.funding){text-align:justify;hyphens:auto}
 
 .teaching-page p:not(.eyebrow),.teaching-page .detail-list li{text-align:justify;hyphens:auto}
+
+/* Graphical abstracts on the homepage */
+.selected-publications .publication{grid-template-columns:58px minmax(0,1fr) minmax(0,35%);gap:24px;align-items:start;padding:30px 0}
+.selected-publications .publication:first-child{padding-top:0}
+.selected-publications .publication>div{min-width:0}
+.graphical-abstract{display:block;align-self:center;min-width:0;text-decoration:none}
+.graphical-abstract img{display:block;width:100%;height:auto;max-height:240px;object-fit:contain}
+.graphical-abstract span{display:block;margin-top:10px;font-size:.75rem;text-align:right;color:var(--muted)}
+.graphical-abstract:hover span{color:var(--blue);text-decoration:underline}
+@media(max-width:760px){.selected-publications .publication{grid-template-columns:40px minmax(0,1fr);gap:13px}.selected-publications .graphical-abstract{grid-column:2;width:100%;max-width:420px;margin-top:10px}.graphical-abstract span{text-align:left}}
