@@ -16,3 +16,5 @@
 .graphical-abstract span{display:block;margin-top:10px;font-size:.75rem;text-align:right;color:var(--muted)}
 .graphical-abstract:hover span{color:var(--blue);text-decoration:underline}
 @media(max-width:760px){.selected-publications .publication{grid-template-columns:40px minmax(0,1fr);gap:13px}.selected-publications .graphical-abstract{grid-column:2;width:100%;max-width:420px;margin-top:10px}.graphical-abstract span{text-align:left}}
+
+.paper-video{margin-top:8px;font-size:.8rem;line-height:1.5}.paper-video>a,.related .paper-video>a{display:inline;font-size:inherit;margin:0;text-decoration:none}.paper-video>a:hover{text-decoration:underline}.related>.paper-video{margin-top:-3px;margin-bottom:12px}
